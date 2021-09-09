@@ -1,0 +1,92 @@
+boton celeste: 
+64; 168; 183 active 1
+36; 164; 183 active 2
+
+44; 188; 210 inactive 1
+33; 167; 188 inactive 2
+
+boton rosado:
+208; 76; 88 active 1
+189; 59; 71 active 2
+
+231; 96; 108 inactive 1
+227; 71; 85 inactive 2
+
+boton naranja:
+204; 117; 41 active 1
+160; 93; 33 active 2
+
+241; 140; 50 inactive 1
+204; 117; 41 inactive 2
+
+boton amarillo:
+230; 168; 41 active 1
+215; 157; 39 active 2
+
+250; 183; 30 inactive 1
+230; 168; 41 inactive 2
+
+boton turquesa:
+43; 142; 101 active 1
+36; 117; 83 active 2
+
+54; 176; 125 inactive 1
+43; 142; 101 inactive 2
+
+boton verde:
+99; 151; 78 active 1
+82; 125; 64 active 2
+
+109; 167; 85 inactive 1
+99; 151; 78 inactive 2
+
+boton azul marino:
+11; 82; 108 active 1
+7; 57; 74 active 2
+
+13; 102; 134 inactive 1
+8; 68; 89 inactive 2
+
+boton salmón:
+203; 90; 83 active 1
+176; 77; 71 active 2
+
+232; 103; 94 inactive 1
+204; 89; 86 inactive 2
+
+boton azul rey:
+0; 80; 143 active 1
+0; 66; 119 active 2
+
+0; 120; 215 inactive 1
+0; 100; 179 inactive 2
+
+boton rojo:
+170; 25; 25 active 1 
+189; 22; 22 active 2 
+
+255; 38; 38 inactive1
+201; 29; 29 inactive2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
