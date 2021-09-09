@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Componentes_para_diseño_winforms
 {
-    public partial class Botones : Form
+    public partial class ventanaPestañas : Form
     {
-        public Botones()
+        public ventanaPestañas()
         {
             InitializeComponent();
-        }
-
-        private void gunaGradientButton1_Click(object sender, EventArgs e)
-        {
-            ventanaPestañas abrirVentanapestañas = new ventanaPestañas();
-            abrirVentanapestañas.Show();
         }
     }
 }

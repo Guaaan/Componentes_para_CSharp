@@ -72,6 +72,7 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton1.TabIndex = 0;
             this.gunaGradientButton1.Text = "botón";
             this.gunaGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaGradientButton1.Click += new System.EventHandler(this.gunaGradientButton1_Click);
             // 
             // gunaGradientButton2
             // 
@@ -407,7 +408,7 @@ namespace Componentes_para_diseño_winforms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 275);
+            this.ClientSize = new System.Drawing.Size(313, 211);
             this.Controls.Add(this.gunaGradientButton12);
             this.Controls.Add(this.gunaGradientButton11);
             this.Controls.Add(this.gunaGradientButton10);
