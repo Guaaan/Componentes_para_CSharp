@@ -379,8 +379,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton12.AnimationHoverSpeed = 0.07F;
             this.gunaGradientButton12.AnimationSpeed = 0.03F;
             this.gunaGradientButton12.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradientButton12.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(167)))), ((int)(((byte)(85)))));
-            this.gunaGradientButton12.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(151)))), ((int)(((byte)(78)))));
+            this.gunaGradientButton12.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(185)))), ((int)(((byte)(84)))));
+            this.gunaGradientButton12.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(139)))), ((int)(((byte)(68)))));
             this.gunaGradientButton12.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton12.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton12.FocusedColor = System.Drawing.Color.Empty;
@@ -391,8 +391,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton12.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton12.Location = new System.Drawing.Point(204, 60);
             this.gunaGradientButton12.Name = "gunaGradientButton12";
-            this.gunaGradientButton12.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(151)))), ((int)(((byte)(78)))));
-            this.gunaGradientButton12.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(125)))), ((int)(((byte)(64)))));
+            this.gunaGradientButton12.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(123)))), ((int)(((byte)(56)))));
+            this.gunaGradientButton12.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(100)))), ((int)(((byte)(48)))));
             this.gunaGradientButton12.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton12.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaGradientButton12.OnHoverImage = null;
@@ -407,7 +407,7 @@ namespace Componentes_para_diseño_winforms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(318, 214);
+            this.ClientSize = new System.Drawing.Size(313, 275);
             this.Controls.Add(this.gunaGradientButton12);
             this.Controls.Add(this.gunaGradientButton11);
             this.Controls.Add(this.gunaGradientButton10);
