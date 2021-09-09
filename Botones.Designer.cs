@@ -29,7 +29,6 @@ namespace Componentes_para_diseño_winforms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Botones));
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton2 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton3 = new Guna.UI.WinForms.GunaGradientButton();
@@ -55,10 +54,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton1.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton1.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton1.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton1.Image")));
+            this.gunaGradientButton1.Image = null;
             this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton1.Location = new System.Drawing.Point(12, 12);
             this.gunaGradientButton1.Name = "gunaGradientButton1";
@@ -71,7 +70,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton1.Radius = 5;
             this.gunaGradientButton1.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton1.TabIndex = 0;
-            this.gunaGradientButton1.Text = "boton1";
+            this.gunaGradientButton1.Text = "botón";
+            this.gunaGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton2
             // 
@@ -84,10 +84,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton2.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton2.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton2.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton2.Image")));
+            this.gunaGradientButton2.Image = null;
             this.gunaGradientButton2.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton2.Location = new System.Drawing.Point(204, 12);
             this.gunaGradientButton2.Name = "gunaGradientButton2";
@@ -100,7 +100,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton2.Radius = 5;
             this.gunaGradientButton2.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton2.TabIndex = 1;
-            this.gunaGradientButton2.Text = "boton1";
+            this.gunaGradientButton2.Text = "botón";
+            this.gunaGradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton3
             // 
@@ -113,10 +114,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton3.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton3.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton3.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton3.Image")));
+            this.gunaGradientButton3.Image = null;
             this.gunaGradientButton3.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton3.Location = new System.Drawing.Point(108, 60);
             this.gunaGradientButton3.Name = "gunaGradientButton3";
@@ -129,7 +130,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton3.Radius = 5;
             this.gunaGradientButton3.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton3.TabIndex = 2;
-            this.gunaGradientButton3.Text = "boton1";
+            this.gunaGradientButton3.Text = "botón";
+            this.gunaGradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton4
             // 
@@ -142,10 +144,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton4.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton4.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton4.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton4.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton4.Image")));
+            this.gunaGradientButton4.Image = null;
             this.gunaGradientButton4.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton4.Location = new System.Drawing.Point(12, 60);
             this.gunaGradientButton4.Name = "gunaGradientButton4";
@@ -158,7 +160,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton4.Radius = 5;
             this.gunaGradientButton4.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton4.TabIndex = 3;
-            this.gunaGradientButton4.Text = "boton1";
+            this.gunaGradientButton4.Text = "botón";
+            this.gunaGradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton5
             // 
@@ -171,10 +174,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton5.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton5.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton5.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton5.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton5.Image")));
+            this.gunaGradientButton5.Image = null;
             this.gunaGradientButton5.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton5.Location = new System.Drawing.Point(12, 108);
             this.gunaGradientButton5.Name = "gunaGradientButton5";
@@ -187,7 +190,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton5.Radius = 5;
             this.gunaGradientButton5.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton5.TabIndex = 4;
-            this.gunaGradientButton5.Text = "boton1";
+            this.gunaGradientButton5.Text = "botón";
+            this.gunaGradientButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton6
             // 
@@ -200,12 +204,12 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton6.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton6.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton6.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton6.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton6.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton6.Image")));
+            this.gunaGradientButton6.Image = null;
             this.gunaGradientButton6.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton6.Location = new System.Drawing.Point(108, 108);
+            this.gunaGradientButton6.Location = new System.Drawing.Point(204, 108);
             this.gunaGradientButton6.Name = "gunaGradientButton6";
             this.gunaGradientButton6.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(117)))), ((int)(((byte)(41)))));
             this.gunaGradientButton6.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(93)))), ((int)(((byte)(33)))));
@@ -216,7 +220,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton6.Radius = 5;
             this.gunaGradientButton6.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton6.TabIndex = 5;
-            this.gunaGradientButton6.Text = "boton1";
+            this.gunaGradientButton6.Text = "botón";
+            this.gunaGradientButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton7
             // 
@@ -229,10 +234,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton7.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton7.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton7.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton7.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton7.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton7.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton7.Image")));
+            this.gunaGradientButton7.Image = null;
             this.gunaGradientButton7.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton7.Location = new System.Drawing.Point(12, 156);
             this.gunaGradientButton7.Name = "gunaGradientButton7";
@@ -245,7 +250,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton7.Radius = 5;
             this.gunaGradientButton7.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton7.TabIndex = 6;
-            this.gunaGradientButton7.Text = "boton1";
+            this.gunaGradientButton7.Text = "botón";
+            this.gunaGradientButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton8
             // 
@@ -258,10 +264,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton8.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton8.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton8.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton8.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton8.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton8.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton8.Image")));
+            this.gunaGradientButton8.Image = null;
             this.gunaGradientButton8.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton8.Location = new System.Drawing.Point(108, 156);
             this.gunaGradientButton8.Name = "gunaGradientButton8";
@@ -274,7 +280,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton8.Radius = 5;
             this.gunaGradientButton8.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton8.TabIndex = 8;
-            this.gunaGradientButton8.Text = "boton1";
+            this.gunaGradientButton8.Text = "botón";
+            this.gunaGradientButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton9
             // 
@@ -287,10 +294,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton9.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton9.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton9.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton9.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton9.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton9.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton9.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton9.Image")));
+            this.gunaGradientButton9.Image = null;
             this.gunaGradientButton9.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton9.Location = new System.Drawing.Point(108, 12);
             this.gunaGradientButton9.Name = "gunaGradientButton9";
@@ -303,7 +310,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton9.Radius = 5;
             this.gunaGradientButton9.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton9.TabIndex = 7;
-            this.gunaGradientButton9.Text = "boton1";
+            this.gunaGradientButton9.Text = "botón";
+            this.gunaGradientButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton10
             // 
@@ -316,10 +324,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton10.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton10.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton10.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton10.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton10.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton10.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton10.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton10.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton10.Image")));
+            this.gunaGradientButton10.Image = null;
             this.gunaGradientButton10.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton10.Location = new System.Drawing.Point(204, 156);
             this.gunaGradientButton10.Name = "gunaGradientButton10";
@@ -332,7 +340,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton10.Radius = 5;
             this.gunaGradientButton10.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton10.TabIndex = 9;
-            this.gunaGradientButton10.Text = "boton1";
+            this.gunaGradientButton10.Text = "botón";
+            this.gunaGradientButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton11
             // 
@@ -345,12 +354,12 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton11.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton11.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton11.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton11.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton11.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton11.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton11.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton11.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton11.Image")));
+            this.gunaGradientButton11.Image = null;
             this.gunaGradientButton11.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton11.Location = new System.Drawing.Point(204, 108);
+            this.gunaGradientButton11.Location = new System.Drawing.Point(108, 108);
             this.gunaGradientButton11.Name = "gunaGradientButton11";
             this.gunaGradientButton11.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(117)))), ((int)(((byte)(0)))));
             this.gunaGradientButton11.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(125)))), ((int)(((byte)(0)))));
@@ -361,7 +370,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton11.Radius = 5;
             this.gunaGradientButton11.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton11.TabIndex = 10;
-            this.gunaGradientButton11.Text = "boton1";
+            this.gunaGradientButton11.Text = "botón";
+            this.gunaGradientButton11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton12
             // 
@@ -374,10 +384,10 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton12.BorderColor = System.Drawing.Color.Black;
             this.gunaGradientButton12.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientButton12.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton12.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton12.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
             this.gunaGradientButton12.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton12.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton12.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton12.Image")));
+            this.gunaGradientButton12.Image = null;
             this.gunaGradientButton12.ImageSize = new System.Drawing.Size(20, 20);
             this.gunaGradientButton12.Location = new System.Drawing.Point(204, 60);
             this.gunaGradientButton12.Name = "gunaGradientButton12";
@@ -390,7 +400,8 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton12.Radius = 5;
             this.gunaGradientButton12.Size = new System.Drawing.Size(90, 42);
             this.gunaGradientButton12.TabIndex = 11;
-            this.gunaGradientButton12.Text = "boton1";
+            this.gunaGradientButton12.Text = "botón";
+            this.gunaGradientButton12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Botones
             // 
@@ -410,7 +421,7 @@ namespace Componentes_para_diseño_winforms
             this.Controls.Add(this.gunaGradientButton2);
             this.Controls.Add(this.gunaGradientButton1);
             this.Name = "Botones";
-            this.Text = "43; 142; 101";
+            this.Text = "Botones";
             this.ResumeLayout(false);
 
         }
