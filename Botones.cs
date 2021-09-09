@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Componentes_para_diseño_winforms
 {
-    public partial class Form1 : Form
+    public partial class Botones : Form
     {
-        public Form1()
+        public Botones()
         {
             InitializeComponent();
         }

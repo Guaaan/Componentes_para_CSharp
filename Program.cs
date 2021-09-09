@@ -16,7 +16,7 @@ namespace Componentes_para_diseño_winforms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Botones());
         }
     }
 }
