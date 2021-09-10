@@ -33,7 +33,6 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton2 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton3 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton4 = new Guna.UI.WinForms.GunaGradientButton();
-            this.gunaGradientButton5 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton6 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton7 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton8 = new Guna.UI.WinForms.GunaGradientButton();
@@ -41,6 +40,9 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton10 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton11 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton12 = new Guna.UI.WinForms.GunaGradientButton();
+            this.gunaGradientButton5 = new Guna.UI.WinForms.GunaGradientButton();
+            this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
+            this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.SuspendLayout();
             // 
             // gunaGradientButton1
@@ -163,36 +165,6 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton4.TabIndex = 3;
             this.gunaGradientButton4.Text = "botón";
             this.gunaGradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaGradientButton5
-            // 
-            this.gunaGradientButton5.Animated = true;
-            this.gunaGradientButton5.AnimationHoverSpeed = 0.07F;
-            this.gunaGradientButton5.AnimationSpeed = 0.03F;
-            this.gunaGradientButton5.BackColor = System.Drawing.Color.Transparent;
-            this.gunaGradientButton5.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(183)))), ((int)(((byte)(30)))));
-            this.gunaGradientButton5.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(168)))), ((int)(((byte)(41)))));
-            this.gunaGradientButton5.BorderColor = System.Drawing.Color.Black;
-            this.gunaGradientButton5.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaGradientButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton5.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
-            this.gunaGradientButton5.ForeColor = System.Drawing.Color.White;
-            this.gunaGradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.gunaGradientButton5.Image = null;
-            this.gunaGradientButton5.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton5.Location = new System.Drawing.Point(12, 108);
-            this.gunaGradientButton5.Name = "gunaGradientButton5";
-            this.gunaGradientButton5.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(168)))), ((int)(((byte)(41)))));
-            this.gunaGradientButton5.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(157)))), ((int)(((byte)(39)))));
-            this.gunaGradientButton5.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaGradientButton5.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaGradientButton5.OnHoverImage = null;
-            this.gunaGradientButton5.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaGradientButton5.Radius = 5;
-            this.gunaGradientButton5.Size = new System.Drawing.Size(90, 42);
-            this.gunaGradientButton5.TabIndex = 4;
-            this.gunaGradientButton5.Text = "botón";
-            this.gunaGradientButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton6
             // 
@@ -404,11 +376,96 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton12.Text = "botón";
             this.gunaGradientButton12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // gunaGradientButton5
+            // 
+            this.gunaGradientButton5.Animated = true;
+            this.gunaGradientButton5.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientButton5.AnimationSpeed = 0.03F;
+            this.gunaGradientButton5.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradientButton5.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(183)))), ((int)(((byte)(30)))));
+            this.gunaGradientButton5.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(159)))), ((int)(((byte)(4)))));
+            this.gunaGradientButton5.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton5.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientButton5.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientButton5.Font = new System.Drawing.Font("Gadugi", 12.25F, System.Drawing.FontStyle.Bold);
+            this.gunaGradientButton5.ForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.gunaGradientButton5.Image = null;
+            this.gunaGradientButton5.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaGradientButton5.Location = new System.Drawing.Point(12, 108);
+            this.gunaGradientButton5.Name = "gunaGradientButton5";
+            this.gunaGradientButton5.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(168)))), ((int)(((byte)(41)))));
+            this.gunaGradientButton5.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(157)))), ((int)(((byte)(39)))));
+            this.gunaGradientButton5.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton5.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton5.OnHoverImage = null;
+            this.gunaGradientButton5.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientButton5.Radius = 5;
+            this.gunaGradientButton5.Size = new System.Drawing.Size(90, 42);
+            this.gunaGradientButton5.TabIndex = 32;
+            this.gunaGradientButton5.Text = "botón";
+            this.gunaGradientButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // gunaDateTimePicker2
+            // 
+            this.gunaDateTimePicker2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaDateTimePicker2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(160)))), ((int)(((byte)(72)))));
+            this.gunaDateTimePicker2.BorderColor = System.Drawing.Color.Silver;
+            this.gunaDateTimePicker2.BorderSize = 0;
+            this.gunaDateTimePicker2.CustomFormat = null;
+            this.gunaDateTimePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.gunaDateTimePicker2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(106)))), ((int)(((byte)(48)))));
+            this.gunaDateTimePicker2.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaDateTimePicker2.ForeColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.gunaDateTimePicker2.Location = new System.Drawing.Point(12, 245);
+            this.gunaDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.gunaDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.gunaDateTimePicker2.Name = "gunaDateTimePicker2";
+            this.gunaDateTimePicker2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(70)))), ((int)(((byte)(32)))));
+            this.gunaDateTimePicker2.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.gunaDateTimePicker2.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker2.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(53)))), ((int)(((byte)(95)))));
+            this.gunaDateTimePicker2.Radius = 5;
+            this.gunaDateTimePicker2.Size = new System.Drawing.Size(155, 37);
+            this.gunaDateTimePicker2.TabIndex = 42;
+            this.gunaDateTimePicker2.Text = "10-09-2021";
+            this.gunaDateTimePicker2.Value = new System.DateTime(2021, 9, 10, 11, 50, 59, 0);
+            // 
+            // gunaDateTimePicker1
+            // 
+            this.gunaDateTimePicker1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaDateTimePicker1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(143)))));
+            this.gunaDateTimePicker1.BorderColor = System.Drawing.Color.Silver;
+            this.gunaDateTimePicker1.BorderSize = 0;
+            this.gunaDateTimePicker1.CustomFormat = null;
+            this.gunaDateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(143)))));
+            this.gunaDateTimePicker1.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.gunaDateTimePicker1.Location = new System.Drawing.Point(12, 202);
+            this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
+            this.gunaDateTimePicker1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(66)))), ((int)(((byte)(118)))));
+            this.gunaDateTimePicker1.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.gunaDateTimePicker1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaDateTimePicker1.OnPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(53)))), ((int)(((byte)(95)))));
+            this.gunaDateTimePicker1.Radius = 5;
+            this.gunaDateTimePicker1.Size = new System.Drawing.Size(155, 37);
+            this.gunaDateTimePicker1.TabIndex = 41;
+            this.gunaDateTimePicker1.Text = "10-09-2021";
+            this.gunaDateTimePicker1.Value = new System.DateTime(2021, 9, 10, 11, 50, 59, 0);
+            // 
             // Botones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 211);
+            this.ClientSize = new System.Drawing.Size(316, 295);
+            this.Controls.Add(this.gunaDateTimePicker2);
+            this.Controls.Add(this.gunaDateTimePicker1);
+            this.Controls.Add(this.gunaGradientButton5);
             this.Controls.Add(this.gunaGradientButton12);
             this.Controls.Add(this.gunaGradientButton11);
             this.Controls.Add(this.gunaGradientButton10);
@@ -416,7 +473,6 @@ namespace Componentes_para_diseño_winforms
             this.Controls.Add(this.gunaGradientButton9);
             this.Controls.Add(this.gunaGradientButton7);
             this.Controls.Add(this.gunaGradientButton6);
-            this.Controls.Add(this.gunaGradientButton5);
             this.Controls.Add(this.gunaGradientButton4);
             this.Controls.Add(this.gunaGradientButton3);
             this.Controls.Add(this.gunaGradientButton2);
@@ -433,7 +489,6 @@ namespace Componentes_para_diseño_winforms
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton2;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton3;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton4;
-        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton5;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton6;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton7;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton8;
@@ -441,6 +496,9 @@ namespace Componentes_para_diseño_winforms
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton10;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton11;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton12;
+        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton5;
+        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
+        private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
     }
 }
 
