@@ -285,6 +285,7 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton9.TabIndex = 7;
             this.gunaGradientButton9.Text = "botón";
             this.gunaGradientButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaGradientButton9.Click += new System.EventHandler(this.gunaGradientButton9_Click);
             // 
             // gunaGradientButton10
             // 

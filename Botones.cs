@@ -22,5 +22,11 @@ namespace Componentes_para_diseño_winforms
             ventanaPestañas abrirVentanapestañas = new ventanaPestañas();
             abrirVentanapestañas.Show();
         }
+
+        private void gunaGradientButton9_Click(object sender, EventArgs e)
+        {
+            extras1 abrirExtras = new extras1();
+            abrirExtras.Show();
+        }
     }
 }
