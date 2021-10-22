@@ -71,8 +71,9 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton2 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
             this.button1 = new System.Windows.Forms.Button();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.rjButton1 = new Componentes_para_diseño_winforms.RJButton();
+            this.rjButton2 = new Componentes_para_diseño_winforms.RJButton();
+            this.gunaGradientButton13 = new Guna.UI.WinForms.GunaGradientButton();
             this.SuspendLayout();
             // 
             // gunaGradientButton3
@@ -1242,47 +1243,21 @@ namespace Componentes_para_diseño_winforms
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(333, 270);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Size = new System.Drawing.Size(160, 42);
-            this.gunaButton1.TabIndex = 145;
-            this.gunaButton1.Text = "gunaButton1";
-            // 
             // rjButton1
             // 
             this.rjButton1.Animated = true;
             this.rjButton1.AnimationHoverSpeed = 0.07F;
             this.rjButton1.AnimationSpeed = 0.03F;
-            this.rjButton1.BackColor = System.Drawing.Color.MediumVioletRed;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.MediumVioletRed;
-            this.rjButton1.BaseColor1 = System.Drawing.Color.SlateBlue;
-            this.rjButton1.BaseColor2 = System.Drawing.Color.Fuchsia;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.rjButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(143)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.Black;
             this.rjButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.rjButton1.FocusedColor = System.Drawing.Color.Empty;
             this.rjButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.rjButton1.ForeColor = System.Drawing.Color.White;
             this.rjButton1.Image = ((System.Drawing.Image)(resources.GetObject("rjButton1.Image")));
             this.rjButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.rjButton1.Location = new System.Drawing.Point(333, 98);
+            this.rjButton1.Location = new System.Drawing.Point(228, 57);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.rjButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -1290,19 +1265,70 @@ namespace Componentes_para_diseño_winforms
             this.rjButton1.OnHoverForeColor = System.Drawing.Color.White;
             this.rjButton1.OnHoverImage = null;
             this.rjButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.rjButton1.Size = new System.Drawing.Size(151, 48);
-            this.rjButton1.TabIndex = 143;
-            this.rjButton1.Text = "Button customized from scratch";
-            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.Size = new System.Drawing.Size(150, 40);
+            this.rjButton1.TabIndex = 146;
+            this.rjButton1.Text = "rjButton1";
+            // 
+            // rjButton2
+            // 
+            this.rjButton2.AnimationHoverSpeed = 0.07F;
+            this.rjButton2.AnimationSpeed = 0.03F;
+            this.rjButton2.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.rjButton2.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(143)))));
+            this.rjButton2.BorderColor = System.Drawing.Color.Black;
+            this.rjButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.rjButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.rjButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Image = ((System.Drawing.Image)(resources.GetObject("rjButton2.Image")));
+            this.rjButton2.ImageSize = new System.Drawing.Size(20, 20);
+            this.rjButton2.Location = new System.Drawing.Point(310, 83);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.rjButton2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.rjButton2.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.rjButton2.OnHoverForeColor = System.Drawing.Color.White;
+            this.rjButton2.OnHoverImage = null;
+            this.rjButton2.OnPressedColor = System.Drawing.Color.Black;
+            this.rjButton2.Size = new System.Drawing.Size(150, 40);
+            this.rjButton2.TabIndex = 147;
+            this.rjButton2.Text = "rjButton2";
+            // 
+            // gunaGradientButton13
+            // 
+            this.gunaGradientButton13.Animated = true;
+            this.gunaGradientButton13.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientButton13.AnimationSpeed = 0.03F;
+            this.gunaGradientButton13.BaseColor1 = System.Drawing.Color.SlateBlue;
+            this.gunaGradientButton13.BaseColor2 = System.Drawing.Color.Fuchsia;
+            this.gunaGradientButton13.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton13.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientButton13.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaGradientButton13.ForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton13.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton13.Image")));
+            this.gunaGradientButton13.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaGradientButton13.Location = new System.Drawing.Point(283, 149);
+            this.gunaGradientButton13.Name = "gunaGradientButton13";
+            this.gunaGradientButton13.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.gunaGradientButton13.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.gunaGradientButton13.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaGradientButton13.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton13.OnHoverImage = null;
+            this.gunaGradientButton13.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaGradientButton13.Size = new System.Drawing.Size(160, 42);
+            this.gunaGradientButton13.TabIndex = 148;
+            this.gunaGradientButton13.Text = "gunaGradientButton13";
             // 
             // extras1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1420, 898);
-            this.Controls.Add(this.gunaButton1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.gunaGradientButton13);
+            this.Controls.Add(this.rjButton2);
             this.Controls.Add(this.rjButton1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.gunaGradientButton3);
             this.Controls.Add(this.gunaGradientButton66);
             this.Controls.Add(this.gunaGradientButton65);
@@ -1391,8 +1417,9 @@ namespace Componentes_para_diseño_winforms
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton4;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton2;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
-        private RJButton rjButton1;
         private System.Windows.Forms.Button button1;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
+        private RJButton rjButton1;
+        private RJButton rjButton2;
+        private Guna.UI.WinForms.GunaGradientButton gunaGradientButton13;
     }
 }

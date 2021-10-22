@@ -14,65 +14,44 @@ namespace Componentes_para_diseño_winforms
     public class RJButton : GunaGradientButton
     {
         //Fields
-        private int borderSize = 0;
+        //borde
         private int borderRadius = 20;
+        private int borderSize = 2;
         private Color borderColor = Color.PaleVioletRed;
+        //colores
+        private Color m_color1 = Color.FromArgb(0, 120, 215); // first color
+        private Color m_color2 = Color.FromArgb(0, 80, 143);
+        //animaciones 
+        private Boolean anim = true;
 
         //Properties
         [Category("RJ Code Advance")]
-        public int BorderSize
+        public new Color BaseColor1
         {
-            get { return borderSize; }
-            set
-            {
-                borderSize = value;
-                this.Invalidate();
-            }
+            get { return m_color1; }
+            set { m_color1 = value; this.Invalidate(); }
         }
 
         [Category("RJ Code Advance")]
-        public int BorderRadius
+        public new Color BaseColor2
         {
-            get { return borderRadius; }
-            set
-            {
-                borderRadius = value;
-                this.Invalidate();
-            }
+            get { return m_color2; }
+            set { m_color2 = value; this.Invalidate(); }
         }
 
         [Category("RJ Code Advance")]
-        public Color BorderColor
+        public new bool Animated
         {
-            get { return borderColor; }
-            set
-            {
-                borderColor = value;
-                this.Invalidate();
-            }
-        }
-        [Category("RJ Code Advance")]
-        public Color BackgroundColor
-        {
-            get { return this.BackColor; }
-            set { this.BackColor = value; }
+            get { return anim; }
+            set { anim = value; this.Invalidate(); }
         }
 
-        [Category("RJ Code Advance")]
-        public Color TextColor
-        {
-            get { return this.ForeColor; }
-            set { this.ForeColor = value; }
-        }
+        
 
         //Constructor
         public RJButton()
         {
-            //this.FlatStyle = FlatStyle.Flat;
-            //this.FlatAppearance.BorderSize = 0;
             this.Size = new Size(150, 40);
-            this.BackColor = Color.MediumSlateBlue;
-            this.ForeColor = Color.White;
             this.Resize += new EventHandler(Button_Resize);
             this.Animated = true;
         }
@@ -100,14 +79,22 @@ namespace Componentes_para_diseño_winforms
 
         protected override void OnPaint(PaintEventArgs pevent)
         {
+            // Calling the base class OnPaint
             base.OnPaint(pevent);
 
+            // Create two colors
+            Color c1 = m_color1;
+            Color c2 = m_color2;
+            Brush b = new System.Drawing.Drawing2D.LinearGradientBrush
+                (ClientRectangle, c1, c2, 10);
+            pevent.Graphics.FillRectangle(b, ClientRectangle);
+            b.Dispose();
+            base.OnPaint(pevent);
             Rectangle rectSurface = this.ClientRectangle;
             Rectangle rectBorder = Rectangle.Inflate(rectSurface, -borderSize, -borderSize);
             int smoothSize = 2;
             if (borderSize > 0)
                 smoothSize = borderSize;
-
             if (borderRadius > 2) //Rounded button
             {
                 using (GraphicsPath pathSurface = GetFigurePath(rectSurface, borderRadius))
@@ -120,7 +107,6 @@ namespace Componentes_para_diseño_winforms
                     this.Region = new Region(pathSurface);
                     //Draw surface border for HD result
                     pevent.Graphics.DrawPath(penSurface, pathSurface);
-
                     //Button border                    
                     if (borderSize >= 1)
                         //Draw control border
