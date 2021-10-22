@@ -35,7 +35,7 @@ namespace Componentes_para_diseño_winforms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 443);
+            this.ClientSize = new System.Drawing.Size(576, 460);
             this.Name = "ventanaPestañas";
             this.Text = "VentaaPestañas";
             this.ResumeLayout(false);
