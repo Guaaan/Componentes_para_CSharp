@@ -26,33 +26,42 @@ namespace Componentes_para_diseño_winforms
         //animaciones 
         private Boolean anim = true;
 
+        //texto
+        private string txt = "botón";
+
         //Properties
         [Category("Control Personalizado")]
-        public  Color BaseColor1
+        public new Color BaseColor1
         {
             get { return baseColor1; }
             set { baseColor1 = value; Invalidate(); }
         }
 
         [Category("Control Personalizado")]
-        public  Color BaseColor2
+        public new Color BaseColor2
         {
             get { return baseColor2; }
             set { baseColor2 = value; Invalidate(); }
         }
 
         [Category("Control Personalizado")]
-        public  bool Animated
+        public new bool Animated
         {
             get { return anim; }
             set { anim = value; Invalidate();  }
         }
-
-        
+        [Category("Control Personalizado")]
+        public new string Text
+        {
+            get { return txt; }
+            set { Text = value; Invalidate(); }
+        }
 
         //Constructor
         public RJButton()
         {
+            
+
         }
 
         //Methods
@@ -64,6 +73,7 @@ namespace Componentes_para_diseño_winforms
             // Create two semi-transparent colors
             Color c1 = baseColor1;
             Color c2 = baseColor2;
+
             Brush b = new System.Drawing.Drawing2D.LinearGradientBrush
                 (ClientRectangle, c1, c2, 10);
             pe.Graphics.FillRectangle(b, ClientRectangle);

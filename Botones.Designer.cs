@@ -480,8 +480,9 @@ namespace Componentes_para_diseño_winforms
             this.rjButton1.Animated = true;
             this.rjButton1.AnimationHoverSpeed = 0.07F;
             this.rjButton1.AnimationSpeed = 0.03F;
-            this.rjButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
-            this.rjButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(143)))));
+            this.rjButton1.BackColor = System.Drawing.Color.DarkSalmon;
+            this.rjButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.rjButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.rjButton1.BorderColor = System.Drawing.Color.Black;
             this.rjButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.rjButton1.FocusedColor = System.Drawing.Color.Empty;
@@ -489,7 +490,7 @@ namespace Componentes_para_diseño_winforms
             this.rjButton1.ForeColor = System.Drawing.Color.White;
             this.rjButton1.Image = ((System.Drawing.Image)(resources.GetObject("rjButton1.Image")));
             this.rjButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.rjButton1.Location = new System.Drawing.Point(263, 265);
+            this.rjButton1.Location = new System.Drawing.Point(272, 253);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.rjButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -497,9 +498,9 @@ namespace Componentes_para_diseño_winforms
             this.rjButton1.OnHoverForeColor = System.Drawing.Color.White;
             this.rjButton1.OnHoverImage = null;
             this.rjButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.rjButton1.Size = new System.Drawing.Size(160, 42);
+            this.rjButton1.Size = new System.Drawing.Size(120, 95);
             this.rjButton1.TabIndex = 43;
-            this.rjButton1.Text = "rjButton1";
+            this.rjButton1.Text = "pruebaaa";
             // 
             // Botones
             // 
