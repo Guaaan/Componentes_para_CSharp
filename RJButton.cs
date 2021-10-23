@@ -50,12 +50,7 @@ namespace Componentes_para_diseño_winforms
             get { return anim; }
             set { anim = value; Invalidate();  }
         }
-        [Category("Control Personalizado")]
-        public new string Text
-        {
-            get { return txt; }
-            set { Text = value; Invalidate(); }
-        }
+        
 
         //Constructor
         public RJButton()
