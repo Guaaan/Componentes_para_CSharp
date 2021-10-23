@@ -40,7 +40,7 @@
     </Reference>
     <Reference Include="Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Guna.UI.dll</HintPath>
+      <HintPath>..\Principal-estesi\gunaui\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
@@ -260,6 +260,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RJButton.resx">
+      <DependentUpon>RJButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ventanaPestañas.resx">
       <DependentUpon>ventanaPestañas.cs</DependentUpon>
     </EmbeddedResource>
