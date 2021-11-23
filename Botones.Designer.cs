@@ -44,7 +44,7 @@ namespace Componentes_para_diseño_winforms
             this.gunaGradientButton5 = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaDateTimePicker2 = new Guna.UI.WinForms.GunaDateTimePicker();
             this.gunaDateTimePicker1 = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.rjButton2 = new Componentes_para_diseño_winforms.RJButton();
+            this.rjButton1 = new Componentes_para_diseño_winforms.RJButton();
             this.SuspendLayout();
             // 
             // gunaGradientButton1
@@ -461,36 +461,42 @@ namespace Componentes_para_diseño_winforms
             this.gunaDateTimePicker1.Text = "10-09-2021";
             this.gunaDateTimePicker1.Value = new System.DateTime(2021, 9, 10, 11, 50, 59, 0);
             // 
-            // rjButton2
+            // rjButton1
             // 
-            this.rjButton2.AnimationHoverSpeed = 0.07F;
-            this.rjButton2.AnimationSpeed = 0.03F;
-            this.rjButton2.BaseColor1 = System.Drawing.Color.RosyBrown;
-            this.rjButton2.BaseColor2 = System.Drawing.Color.GreenYellow;
-            this.rjButton2.BorderColor = System.Drawing.Color.Black;
-            this.rjButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.rjButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.rjButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Image = ((System.Drawing.Image)(resources.GetObject("rjButton2.Image")));
-            this.rjButton2.ImageSize = new System.Drawing.Size(20, 30);
-            this.rjButton2.Location = new System.Drawing.Point(27, 308);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
-            this.rjButton2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
-            this.rjButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.rjButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.rjButton2.OnHoverImage = null;
-            this.rjButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.rjButton2.Size = new System.Drawing.Size(267, 193);
-            this.rjButton2.TabIndex = 44;
+            this.rjButton1.Animated = true;
+            this.rjButton1.AnimationHoverSpeed = 0.07F;
+            this.rjButton1.AnimationSpeed = 0.03F;
+            this.rjButton1.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.rjButton1.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(143)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.Black;
+            this.rjButton1.ButtonTheme = Componentes_para_diseño_winforms.RJButton.ButtonsThemes.Primary;
+            this.rjButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.rjButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.rjButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.GradientAngle = 90;
+            this.rjButton1.Image = ((System.Drawing.Image)(resources.GetObject("rjButton1.Image")));
+            this.rjButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.rjButton1.Location = new System.Drawing.Point(372, 121);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
+            this.rjButton1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.rjButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.rjButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.rjButton1.OnHoverImage = null;
+            this.rjButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.rjButton1.Size = new System.Drawing.Size(150, 40);
+            this.rjButton1.TabIndex = 43;
+            this.rjButton1.Text = "rjButton1";
+            this.rjButton1.TextLocation_X = 100;
+            this.rjButton1.TextLocation_Y = 25;
             // 
             // Botones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 506);
-            this.Controls.Add(this.rjButton2);
+            this.ClientSize = new System.Drawing.Size(678, 509);
+            this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.gunaDateTimePicker2);
             this.Controls.Add(this.gunaDateTimePicker1);
             this.Controls.Add(this.gunaGradientButton5);
@@ -527,7 +533,7 @@ namespace Componentes_para_diseño_winforms
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton5;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker2;
         private Guna.UI.WinForms.GunaDateTimePicker gunaDateTimePicker1;
-        private RJButton rjButton2;
+        private RJButton rjButton1;
     }
 }
 

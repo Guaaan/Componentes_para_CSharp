@@ -227,6 +227,12 @@
     <Compile Include="Botones.Designer.cs">
       <DependentUpon>Botones.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomControl1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl1.Designer.cs">
+      <DependentUpon>CustomControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="extras1.cs">
       <SubType>Form</SubType>
     </Compile>

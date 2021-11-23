@@ -18,15 +18,35 @@ namespace Componentes_para_diseño_winforms
         private int borderRadius = 20;
         private Color borderColor = Color.PaleVioletRed;
         //colores
+        private int angle = 90;
         private Color m_color1 = Color.FromArgb(0, 120, 215); // first color
         private Color m_color2 = Color.FromArgb(0, 80, 143);
         //animaciones 
         private Boolean anim = true;
         //texto 
+        public Boolean showButtonText = true;
+        private int textX = 100;
+        private int textY = 25;
+
         private String text = "";
 
 
-
+        [Category("Modificadores Personalizados")]
+        public enum ButtonsThemes
+        {
+            Primary,
+            Azul,
+            Aceptar
+        }
+        ButtonsThemes buttonTheme;
+        public ButtonsThemes ButtonTheme
+        {
+            get { return buttonTheme; }
+            set
+            {
+                buttonTheme = value; Invalidate();
+            }
+        }
 
         //Properties
         [Category("Modificadores Personalizados")]
@@ -43,21 +63,32 @@ namespace Componentes_para_diseño_winforms
             set { m_color2 = value; this.Invalidate(); }
         }
 
-        [Category("Modificadores Personalizados")]
-        public Boolean Animated
-        {
-            get { return anim; }
-            set { anim = value; this.Invalidate(); }
-        }
+        //[Category("Modificadores Personalizados")]
+        //public Boolean Animated
+        //{
+        //    get { return anim; }
+        //    set { anim = value; this.Invalidate(); }
+        //}
+
 
         [Category("Modificadores Personalizados")]
-        public String Text
+        public int TextLocation_X
         {
-            get { return text; }
-            set { text = value; this.Invalidate(); }
+            get { return textX; }
+            set { textX = value; Invalidate(); }
         }
-
-        
+        [Category("Modificadores Personalizados")]
+        public int TextLocation_Y
+        {
+            get { return textY; }
+            set { textY = value; Invalidate(); }
+        }
+        [Category("Modificadores Personalizados")]
+        public int GradientAngle
+        {
+            get { return angle; }
+            set { angle = value; Invalidate(); }
+        }
 
         //Constructor
         public RJButton()
@@ -65,28 +96,77 @@ namespace Componentes_para_diseño_winforms
             this.Size = new Size(150, 40);
             this.Animated = true;
             text = this.Text;
-            anim = this.Animated;
         }
 
-       
+       //draw primary button
+       void DrawPrimaryButton(Graphics g)
+        {
+            Color c1 = m_color1;
+            Color c2 = m_color2;
+
+            if (showButtonText)
+            {
+                Point p = new Point(textX, textY);
+                SolidBrush frcolor = new SolidBrush(this.ForeColor);
+                g.DrawString(text, this.Font, frcolor, p);
+            }
+
+            
+
+        }
+
+        void DrawAzulButton(Graphics g)
+        {
+            Color c1 = m_color1;
+            Color c2 = m_color2;
+
+            if (showButtonText)
+            {
+                Point p = new Point(textX, textY);
+                SolidBrush frcolor = new SolidBrush(this.ForeColor);
+                g.DrawString(text, this.Font, frcolor, p);
+            }
+        }
+        void DrawAceptarButton(Graphics g)
+        {
+            Color c1 = m_color1;
+            Color c2 = m_color2;
+
+
+            Brush b = new System.Drawing.Drawing2D.LinearGradientBrush(ClientRectangle, c1, c2, angle);
+            g.FillRectangle(b, 0, 0, this.Width, this.Height);
+
+
+            if (showButtonText)
+            {
+                Point p = new Point(textX, textY);
+                SolidBrush frcolor = new SolidBrush(this.ForeColor);
+                g.DrawString(text, this.Font, frcolor, p);
+            }
+            b.Dispose();
+        }
 
         //Methods
-        
+
 
         protected override void OnPaint(PaintEventArgs pevent)
         {
-            // Calling the base class OnPaint
             base.OnPaint(pevent);
 
-            // Create two colors
-            Color c1 = m_color1;
-            Color c2 = m_color2;
-            Brush b = new System.Drawing.Drawing2D.LinearGradientBrush
-                (ClientRectangle, c1, c2, 10);
-            pevent.Graphics.FillRectangle(b, ClientRectangle);
-            b.Dispose();
-            //base.OnPaint(pevent);
-            
+            switch (buttonTheme)
+            {
+                case ButtonsThemes.Primary:
+                    this.DrawPrimaryButton(pevent.Graphics);
+                    break;
+
+                case ButtonsThemes.Azul:
+                    this.DrawAzulButton(pevent.Graphics);
+                    break;
+
+                case ButtonsThemes.Aceptar:
+                    this.DrawAceptarButton(pevent.Graphics);
+                    break;
+            }
         }
         /*protected override void OnHandleCreated(EventArgs e)
         {
